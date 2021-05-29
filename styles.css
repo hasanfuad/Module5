@@ -1,15 +1,28 @@
 body{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    line-height: 2;
+    width: 85%;
 }
 
 
 /* Navbar */
 ul{
     list-style-type: none;
-    margin: 0;
+    margin-right: 4%;
     padding: 0;
     overflow: hidden;
-    background-color: black;
 
 }
 
@@ -17,12 +30,77 @@ li a{
     display: block;
     float: right;
     text-decoration: none;
-    color: white;
+    color: rgb(48, 47, 47);
     padding: 15px 10px;
     margin: 5px 10px;
 }
 
 li a:hover{
-    background-color: rgb(46, 46, 44);
+    background-color: rgb(129, 129, 125);
 }
 
+
+/* Top Section */
+
+.name-color{
+    color: salmon;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+
+.half-width img{
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.btn-design{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 15px 30px;
+    border-radius: 6px;
+    color: seashell;
+    background-image: linear-gradient(90deg, salmon, tomato);
+}
+
+/* middle section */
+
+section{
+    height: 800px;
+}
+
+/* fourth-section */
+
+.fourth-sec-title{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.fourth-section{
+    background-color: whitesmoke;
+}
+
+.fourth-section-img1{
+    width: 30%;
+    float: left;
+    margin: 20px 30px;
+    /* padding-top: 50px; */
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.fourth-section-img1 img{
+    width: 80%;
+    margin: 20px 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
