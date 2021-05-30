@@ -11,9 +11,14 @@ h2{
     font-size: 50px;
 }
 
+h3{
+    font-size: 20px;
+}
+
 p{
     line-height: 2;
     width: 85%;
+    color: gray;
 }
 
 
@@ -72,7 +77,7 @@ li a:hover{
 /* middle section */
 
 section{
-    height: 800px;
+    height: 680px;
 }
 
 /* fourth-section */
@@ -80,6 +85,8 @@ section{
 .fourth-sec-title{
     text-align: center;
     padding-top: 80px;
+    width: 60%;
+    margin-left: 400px;
 }
 
 .fourth-section{
@@ -87,20 +94,47 @@ section{
 }
 
 .fourth-section-img1{
-    width: 30%;
+    width: 20%;
     float: left;
-    margin: 20px 30px;
-    /* padding-top: 50px; */
     background-color: white;
     border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
 
 }
 
 .fourth-section-img1 img{
-    width: 80%;
-    margin: 20px 20px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 8px;
+    width: 100%;
+}
+
+.all-img-fourth-section{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+/* Bottom Section  */
+
+.bottom-section{
+    
+   
+}
+
+.bottom-section img{
+    
+}
+
+.bottom-bg{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.bottom-img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bottom-title{
+    position: relative;
+    bottom: 10%;
+    left: 15%;
 }
