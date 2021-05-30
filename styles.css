@@ -41,7 +41,7 @@ li a{
 }
 
 li a:hover{
-    background-color: rgb(129, 129, 125);
+    background-color: rgb(206, 206, 197);
 }
 
 
@@ -114,27 +114,44 @@ section{
 
 /* Bottom Section  */
 
-.bottom-section{
-    
-   
-}
-
-.bottom-section img{
-    
-}
-
-.bottom-bg{
-    margin-top: 200px;
-    margin-left: 300px;
+.btn-bottom{
+    margin-left: 65%;
+    position: relative;
+    bottom: 22.5%;
 }
 
 .bottom-img{
     width: 60%;
     margin-left: 20%;
+    margin-top: 12%;
 }
 
 .bottom-title{
-    position: relative;
-    bottom: 10%;
-    left: 15%;
+    position: absolute;
+    left: 25%;
+    margin-top: 17.5%;
+    color: white;
+}
+
+
+.top-most-bottom{
+    text-align: center;
+    margin-top: -70px;
+}
+
+.top-bottom-img{
+    width: 3%;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.title-bottom{
+    color: gray;
+}
+
+.top-most-bottom-section{
+    height: 300px;
+}
+#top-most-bottom-h2{
+    color: rgb(97, 120, 126);
 }
